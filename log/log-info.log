@@ -1,0 +1,1224 @@
+2018-06-22 17:44:33.512 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:582 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@69653e16: startup date [Fri Jun 22 17:44:33 CST 2018]; root of context hierarchy
+2018-06-22 17:44:33.685 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor Line:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 17:44:33.722 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$349984cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:34.095 INFO  com.pdstars.BootApplication Line:641 - The following profiles are active: dev
+2018-06-22 17:44:34.107 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5eccd3b9: startup date [Fri Jun 22 17:44:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@69653e16
+2018-06-22 17:44:35.065 INFO  org.springframework.cloud.context.scope.GenericScope Line:263 - BeanFactory id=e19d32f0-ac3d-395f-abd0-e1674b3658fc
+2018-06-22 17:44:35.090 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor Line:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 17:44:35.127 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.153 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.224 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.231 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'mybatisConfig' of type [com.pdstars.config.MybatisConfig$$EnhancerBySpringCGLIB$$e849dbec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.243 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'DBInterceptor' of type [com.pdstars.manager.interceptor.DBInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.258 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'pageHelper' of type [com.github.pagehelper.PageHelper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.580 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.581 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.589 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'serverMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.590 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'logMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.659 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$187f81d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.692 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$349984cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 17:44:35.902 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:89  - Tomcat initialized with port(s): 16431 (http)
+2018-06-22 17:44:35.909 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-06-22 17:44:35.910 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-06-22 17:44:36.041 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-06-22 17:44:36.045 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 1938 ms
+2018-06-22 17:44:36.323 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-22 17:44:36.327 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'metricsFilter' to: [/*]
+2018-06-22 17:44:36.328 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 17:44:36.332 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 17:44:36.333 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 17:44:36.333 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 17:44:36.333 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-06-22 17:44:36.337 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-06-22 17:44:36.929 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/getLog]}" onto public com.pdstars.manager.base.vo.GeneralResVO com.pdstars.web.controller.log.LogController.getLog(com.pdstars.manager.log.vo.GetDelLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 17:44:36.930 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/addLog]}" onto public com.pdstars.manager.base.vo.GeneralResVO com.pdstars.web.controller.log.LogController.addLog(com.pdstars.manager.log.vo.AddEditLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 17:44:36.934 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-22 17:44:36.935 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-22 17:44:36.936 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-22 17:44:36.938 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 17:44:36.939 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 17:44:37.526 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-06-22 17:44:37.527 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.528 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-06-22 17:44:37.528 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.529 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.529 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.531 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-06-22 17:44:37.532 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.537 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 17:44:37.537 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.539 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-06-22 17:44:37.539 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-06-22 17:44:37.540 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.541 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 17:44:37.542 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.542 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.547 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.548 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.549 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-06-22 17:44:37.549 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-06-22 17:44:37.550 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-06-22 17:44:37.551 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-06-22 17:44:37.551 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 17:44:37.552 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-06-22 17:44:37.556 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 17:44:37.675 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-06-22 17:44:37.892 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5eccd3b9: startup date [Fri Jun 22 17:44:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@69653e16
+2018-06-22 17:44:37.943 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 17:44:37.943 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 17:44:37.964 INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver Line:273 - Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-22 17:44:37.987 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 17:44:38.317 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-22 17:44:38.321 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-22 17:44:38.514 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-06-22 17:44:38.528 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-06-22 17:44:38.528 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-06-22 17:44:38.531 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-06-22 17:44:38.531 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-06-22 17:44:38.536 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-06-22 17:44:38.538 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-06-22 17:44:38.549 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-06-22 17:44:38.557 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-06-22 17:44:38.567 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5eccd3b9,type=ConfigurationPropertiesRebinder]
+2018-06-22 17:44:38.572 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-06-22 17:44:38.709 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:343 - Starting beans in phase 0
+2018-06-22 17:44:38.715 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:70  - Setting initial instance status as: STARTING
+2018-06-22 17:44:38.840 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-22 17:44:38.841 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-22 17:44:38.903 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-22 17:44:38.904 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-22 17:44:39.128 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 17:44:39.209 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:44:39.209 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:44:39.210 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:44:39.214 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:44:39.215 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:44:39.215 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:44:39.215 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:44:40.293 INFO  com.netflix.discovery.DiscoveryClient Line:1261 - Starting heartbeat executor: renew interval is: 30
+2018-06-22 17:44:40.296 INFO  com.netflix.discovery.InstanceInfoReplicator Line:59  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-22 17:44:40.299 INFO  com.netflix.discovery.DiscoveryClient Line:461 - Discovery Client initialized at timestamp 1529660680299 with initial instances count: 0
+2018-06-22 17:44:40.334 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:100 - Registering application pdstars-bing-server with eureka with status UP
+2018-06-22 17:44:40.335 INFO  com.netflix.discovery.DiscoveryClient Line:1296 - Saw local status change event StatusChangeEvent [timestamp=1529660680335, current=UP, previous=STARTING]
+2018-06-22 17:44:40.336 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:44:40.371 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:343 - Starting beans in phase 2147483647
+2018-06-22 17:44:40.371 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-06-22 17:44:40.388 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-06-22 17:44:40.424 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-06-22 17:44:40.627 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:198 - Tomcat started on port(s): 16431 (http)
+2018-06-22 17:44:40.628 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:168 - Updating port to 16431
+2018-06-22 17:44:40.632 INFO  com.pdstars.BootApplication Line:57  - Started BootApplication in 7.487 seconds (JVM running for 8.544)
+2018-06-22 17:44:50.685 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-22 17:44:50.690 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-22 17:44:50.719 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-06-22 17:45:10.296 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:45:10.313 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:45:10.313 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:45:10.314 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:45:10.314 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:45:10.321 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:45:10.321 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:45:11.382 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:45:41.352 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:45:41.367 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:45:41.379 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:45:41.393 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:45:41.393 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:45:41.394 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:45:41.394 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:45:42.413 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:46:12.414 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:46:12.424 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:46:12.424 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:46:12.425 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:46:12.425 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:46:12.434 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:46:12.435 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:46:13.437 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:46:43.444 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:46:43.470 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:46:43.487 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:46:43.499 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:46:43.499 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:46:43.499 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:46:43.499 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:46:44.463 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:47:14.524 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:47:14.545 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:47:14.545 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:47:14.553 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:47:14.553 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:47:14.561 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:47:14.561 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:47:15.480 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:47:45.585 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:47:45.590 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:47:45.594 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:47:45.599 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:47:45.599 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:47:45.599 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:47:45.599 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:47:46.533 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:48:16.616 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:48:16.624 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:48:16.625 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:48:16.625 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:48:16.625 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:48:16.632 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:48:16.632 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:48:17.555 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:48:47.647 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:48:47.659 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:48:47.670 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:48:47.681 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:48:47.682 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:48:47.682 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:48:47.682 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:48:48.600 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:49:18.707 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:49:18.719 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:49:18.720 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:49:18.730 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:49:18.731 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:49:18.742 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:49:18.742 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:49:19.633 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:49:39.225 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 17:49:49.764 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:49:49.768 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:49:49.773 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:49:49.773 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:49:49.777 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:49:49.778 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:49:49.782 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:49:50.674 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:50:20.792 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:50:20.807 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:50:20.816 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:50:20.816 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:50:20.822 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:50:20.822 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:50:20.822 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:50:21.713 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:50:51.852 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:50:51.856 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:50:51.860 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:50:51.861 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:50:51.865 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:50:51.865 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:50:51.870 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:50:52.761 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:51:22.889 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:51:22.900 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:51:22.909 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:51:22.910 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:51:22.916 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:51:22.916 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:51:22.917 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:51:23.821 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:51:53.970 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:51:53.974 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:51:53.979 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:51:53.979 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:51:53.983 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:51:53.983 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:51:53.987 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:51:54.857 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:52:24.995 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:52:25.000 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:52:25.004 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:52:25.004 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:52:25.008 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:52:25.008 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:52:25.009 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:52:25.900 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:52:56.034 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:52:56.039 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:52:56.043 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:52:56.043 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:52:56.047 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:52:56.047 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:52:56.051 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:52:56.924 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:53:27.086 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:53:27.091 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:53:27.095 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:53:27.095 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:53:27.099 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:53:27.099 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:53:27.099 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:53:27.976 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:53:58.119 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:53:58.141 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:53:58.161 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:53:58.162 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:53:58.172 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:53:58.172 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:53:58.181 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:53:59.028 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:54:29.198 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:54:29.219 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:54:29.239 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:54:29.239 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:54:29.249 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:54:29.250 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:54:29.250 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:54:30.087 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:54:39.240 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 17:55:00.251 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:55:00.271 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:55:00.286 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:55:00.297 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:55:00.297 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:55:00.304 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:55:00.304 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:55:01.129 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:55:31.323 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:55:31.344 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:55:31.362 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:55:31.376 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:55:31.377 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:55:31.377 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:55:31.377 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:55:32.194 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:56:02.409 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:56:02.414 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:56:02.414 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:56:02.415 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:56:02.415 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:56:02.419 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:56:02.420 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:56:03.241 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:56:33.430 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:56:33.447 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:56:33.457 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:56:33.468 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:56:33.469 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:56:33.469 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:56:33.469 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:56:34.291 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:57:04.513 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:57:04.527 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:57:04.527 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:57:04.528 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:57:04.528 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:57:04.537 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:57:04.537 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:57:05.327 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:57:35.552 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:57:35.556 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:57:35.560 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:57:35.564 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:57:35.564 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:57:35.564 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:57:35.564 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:57:36.366 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:58:06.574 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:58:06.596 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:58:06.596 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:58:06.596 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:58:06.597 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:58:06.616 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:58:06.616 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:58:07.385 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:58:37.631 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:58:37.635 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:58:37.640 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:58:37.644 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:58:37.644 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:58:37.644 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:58:37.644 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:58:38.429 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:59:08.663 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:59:08.668 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:59:08.668 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:59:08.668 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:59:08.668 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:59:08.672 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:59:08.672 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:59:09.450 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 17:59:39.253 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 17:59:39.685 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 17:59:39.689 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 17:59:39.693 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 17:59:39.693 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 17:59:39.697 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 17:59:39.698 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 17:59:39.702 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 17:59:40.488 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:00:10.720 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:00:10.737 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:00:10.752 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:00:10.753 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:00:10.766 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:00:10.766 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:00:10.766 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:00:11.534 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:00:41.791 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:00:41.796 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:00:41.801 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:00:41.801 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:00:41.805 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:00:41.805 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:00:41.809 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:00:42.564 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:01:12.861 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:01:12.866 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:01:12.870 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:01:12.870 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:01:12.874 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:01:12.874 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:01:12.874 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:01:13.599 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:01:43.894 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:01:43.914 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:01:43.934 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:01:43.934 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:01:43.947 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:01:43.947 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:01:43.955 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:01:44.630 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:02:14.993 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:02:15.014 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:02:15.027 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:02:15.027 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:02:15.035 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:02:15.035 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:02:15.035 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:02:15.659 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:02:46.083 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:02:46.093 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:02:46.105 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:02:46.112 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:02:46.112 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:02:46.112 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:02:46.112 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:02:46.686 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:03:17.142 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:03:17.143 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:03:17.155 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:03:17.156 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:03:17.156 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:03:17.162 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:03:17.162 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:03:17.711 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:03:48.194 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:03:48.194 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:03:48.194 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:03:48.199 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:03:48.199 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:03:48.199 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:03:48.199 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:03:48.718 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:04:19.228 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:04:19.237 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:04:19.237 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:04:19.237 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:04:19.238 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:04:19.245 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:04:19.245 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:04:19.747 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:04:39.267 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:04:50.276 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:04:50.276 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:04:50.285 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:04:50.285 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:04:50.285 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:04:50.285 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:04:50.285 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:04:50.770 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:05:21.326 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:05:21.326 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:05:21.327 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:05:21.327 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:05:21.334 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:05:21.334 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:05:21.335 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:05:21.793 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:05:52.344 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:05:52.345 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:05:52.361 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:05:52.361 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:05:52.362 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:05:52.362 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:05:52.376 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:05:52.831 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:06:23.399 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:06:23.399 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:06:23.400 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:06:23.400 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:06:23.410 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:06:23.410 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:06:23.411 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:06:23.868 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:06:54.435 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:06:54.436 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:06:54.449 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:06:54.450 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:06:54.450 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:06:54.450 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:06:54.450 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:06:54.881 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:07:25.471 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:07:25.471 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:07:25.471 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:07:25.471 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:07:25.478 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:07:25.478 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:07:25.478 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:07:25.908 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:07:56.483 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:07:56.484 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:07:56.497 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:07:56.498 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:07:56.498 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:07:56.498 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:07:56.510 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:07:56.944 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:08:27.544 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:08:27.545 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:08:27.545 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:08:27.546 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:08:27.561 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:08:27.562 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:08:27.562 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:08:27.966 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:08:58.575 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:08:58.577 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:08:58.589 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:08:58.590 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:08:58.590 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:08:58.590 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:08:58.590 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:08:58.975 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:09:29.616 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:09:29.617 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:09:29.617 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:09:29.618 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:09:29.633 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:09:29.634 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:09:29.634 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:09:30.003 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:09:39.297 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:10:00.649 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:10:00.658 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:10:00.659 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:10:00.659 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:10:00.659 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:10:00.668 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:10:00.668 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:10:01.035 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:10:31.708 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:10:31.712 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:10:31.712 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:10:31.717 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:10:31.717 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:10:31.717 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:10:31.717 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:10:32.070 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:11:02.731 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:11:02.741 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:11:02.742 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:11:02.742 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:11:02.742 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:11:02.751 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:11:02.752 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:11:03.088 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:11:33.776 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:11:33.776 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:11:33.776 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:11:33.780 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:11:33.781 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:11:33.781 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:11:33.781 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:11:34.117 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:12:04.793 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:12:04.810 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:12:04.810 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:12:04.810 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:12:04.811 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:12:04.824 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:12:04.824 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:12:05.125 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:12:35.834 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:12:35.838 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:12:35.838 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:12:35.842 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:12:35.843 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:12:35.843 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:12:35.843 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:12:36.146 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:12:49.764 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Line:125 - Application shutdown requested.
+2018-06-22 18:12:49.769 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5eccd3b9: startup date [Fri Jun 22 17:44:34 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@69653e16
+2018-06-22 18:12:49.774 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:128 - Unregistering application pdstars-bing-server with eureka with status DOWN
+2018-06-22 18:12:49.778 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:12:49.778 INFO  com.netflix.discovery.DiscoveryClient Line:869 - Shutting down DiscoveryClient ...
+2018-06-22 18:12:49.779 INFO  com.netflix.discovery.DiscoveryClient Line:901 - Unregistering ...
+2018-06-22 18:12:50.807 INFO  com.netflix.discovery.DiscoveryClient Line:890 - Completed shut down of DiscoveryClient
+2018-06-22 18:12:50.809 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:358 - Stopping beans in phase 2147483647
+2018-06-22 18:12:50.810 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:358 - Stopping beans in phase 0
+2018-06-22 18:12:50.828 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:449 - Unregistering JMX-exposed beans on shutdown
+2018-06-22 18:12:50.828 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:241 - Unregistering JMX-exposed beans
+2018-06-22 18:12:50.957 INFO  org.apache.catalina.core.StandardService Line:179 - Stopping service Tomcat
+2018-06-22 18:12:50.963 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-06-22 18:13:08.671 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:582 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9: startup date [Fri Jun 22 18:13:08 CST 2018]; root of context hierarchy
+2018-06-22 18:13:08.835 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor Line:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 18:13:08.871 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67fb2b5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:09.248 INFO  com.pdstars.BootApplication Line:641 - The following profiles are active: dev
+2018-06-22 18:13:09.260 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c211fd0: startup date [Fri Jun 22 18:13:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9
+2018-06-22 18:13:10.183 INFO  org.springframework.cloud.context.scope.GenericScope Line:263 - BeanFactory id=b6bbd9b5-3e2b-3d39-9eff-93180d784467
+2018-06-22 18:13:10.198 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor Line:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 18:13:10.235 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.259 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.341 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.347 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'mybatisConfig' of type [com.pdstars.config.MybatisConfig$$EnhancerBySpringCGLIB$$1bab8279] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.358 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'DBInterceptor' of type [com.pdstars.manager.interceptor.DBInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.371 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'pageHelper' of type [com.github.pagehelper.PageHelper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.613 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.613 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.621 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'serverMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.622 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'logMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.693 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4be1285d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.726 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67fb2b5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:13:10.934 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:89  - Tomcat initialized with port(s): 16431 (http)
+2018-06-22 18:13:10.941 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-06-22 18:13:10.942 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-06-22 18:13:11.067 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-06-22 18:13:11.072 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 1812 ms
+2018-06-22 18:13:11.330 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-22 18:13:11.334 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'metricsFilter' to: [/*]
+2018-06-22 18:13:11.335 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 18:13:11.339 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 18:13:11.340 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 18:13:11.340 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 18:13:11.340 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-06-22 18:13:11.345 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-06-22 18:13:11.973 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/getLog]}" onto public com.pdstars.manager.base.vo.GeneralResVO com.pdstars.web.controller.log.LogController.getLog(com.pdstars.manager.log.vo.GetDelLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 18:13:11.975 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/addLog]}" onto public com.pdstars.manager.base.vo.GeneralResVO com.pdstars.web.controller.log.LogController.addLog(com.pdstars.manager.log.vo.AddEditLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 18:13:11.975 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/testController]}" onto public java.lang.String com.pdstars.web.controller.log.LogController.testController(com.pdstars.manager.log.vo.GetDelLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 18:13:11.978 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-22 18:13:11.979 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-22 18:13:11.980 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-22 18:13:11.982 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 18:13:11.987 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 18:13:12.600 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 18:13:12.601 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.601 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.602 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-06-22 18:13:12.602 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.603 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-06-22 18:13:12.603 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-06-22 18:13:12.609 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.611 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-06-22 18:13:12.612 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-06-22 18:13:12.613 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.614 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-06-22 18:13:12.615 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.615 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.616 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.621 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-06-22 18:13:12.622 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.622 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.623 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 18:13:12.624 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-06-22 18:13:12.625 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-06-22 18:13:12.626 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.627 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-06-22 18:13:12.632 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:13:12.632 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 18:13:12.748 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-06-22 18:13:12.984 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c211fd0: startup date [Fri Jun 22 18:13:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9
+2018-06-22 18:13:13.037 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:13:13.037 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:13:13.058 INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver Line:273 - Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-22 18:13:13.080 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:13:13.423 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-22 18:13:13.427 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-22 18:13:13.634 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-06-22 18:13:13.648 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-06-22 18:13:13.648 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-06-22 18:13:13.650 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-06-22 18:13:13.655 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-06-22 18:13:13.655 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-06-22 18:13:13.658 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-06-22 18:13:13.669 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-06-22 18:13:13.677 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-06-22 18:13:13.687 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7c211fd0,type=ConfigurationPropertiesRebinder]
+2018-06-22 18:13:13.692 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-06-22 18:13:13.828 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:343 - Starting beans in phase 0
+2018-06-22 18:13:13.834 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:70  - Setting initial instance status as: STARTING
+2018-06-22 18:13:13.956 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-22 18:13:13.957 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-22 18:13:14.016 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-22 18:13:14.016 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-22 18:13:14.230 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:13:14.306 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:13:14.307 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:13:14.312 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:13:14.312 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:13:14.312 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:13:14.312 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:13:14.312 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:13:15.406 INFO  com.netflix.discovery.DiscoveryClient Line:1261 - Starting heartbeat executor: renew interval is: 30
+2018-06-22 18:13:15.410 INFO  com.netflix.discovery.InstanceInfoReplicator Line:59  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-22 18:13:15.414 INFO  com.netflix.discovery.DiscoveryClient Line:461 - Discovery Client initialized at timestamp 1529662395414 with initial instances count: 0
+2018-06-22 18:13:15.431 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:100 - Registering application pdstars-bing-server with eureka with status UP
+2018-06-22 18:13:15.432 INFO  com.netflix.discovery.DiscoveryClient Line:1296 - Saw local status change event StatusChangeEvent [timestamp=1529662395432, current=UP, previous=STARTING]
+2018-06-22 18:13:15.433 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:13:15.470 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:343 - Starting beans in phase 2147483647
+2018-06-22 18:13:15.474 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-06-22 18:13:15.488 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-06-22 18:13:15.529 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-06-22 18:13:15.760 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:198 - Tomcat started on port(s): 16431 (http)
+2018-06-22 18:13:15.761 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:168 - Updating port to 16431
+2018-06-22 18:13:15.765 INFO  com.pdstars.BootApplication Line:57  - Started BootApplication in 7.459 seconds (JVM running for 8.231)
+2018-06-22 18:13:45.408 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:13:45.421 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:13:45.421 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:13:45.429 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:13:45.429 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:13:45.430 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:13:45.430 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:13:46.486 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:13:59.619 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-22 18:13:59.624 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-22 18:13:59.654 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-06-22 18:14:16.465 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:14:16.482 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:14:16.495 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:14:16.495 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:14:16.502 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:14:16.503 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:14:16.509 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:14:17.514 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:14:47.530 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:14:47.548 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:14:47.559 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:14:47.559 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:14:47.570 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:14:47.571 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:14:47.571 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:14:48.557 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:14:55.390 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Line:125 - Application shutdown requested.
+2018-06-22 18:14:55.401 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c211fd0: startup date [Fri Jun 22 18:13:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9
+2018-06-22 18:14:55.408 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:128 - Unregistering application pdstars-bing-server with eureka with status DOWN
+2018-06-22 18:14:55.413 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:14:55.413 INFO  com.netflix.discovery.DiscoveryClient Line:869 - Shutting down DiscoveryClient ...
+2018-06-22 18:14:55.419 INFO  com.netflix.discovery.DiscoveryClient Line:901 - Unregistering ...
+2018-06-22 18:14:56.479 INFO  com.netflix.discovery.DiscoveryClient Line:890 - Completed shut down of DiscoveryClient
+2018-06-22 18:14:56.483 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:358 - Stopping beans in phase 2147483647
+2018-06-22 18:14:56.484 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:358 - Stopping beans in phase 0
+2018-06-22 18:14:56.486 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:449 - Unregistering JMX-exposed beans on shutdown
+2018-06-22 18:14:56.487 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:241 - Unregistering JMX-exposed beans
+2018-06-22 18:14:56.606 INFO  org.apache.catalina.core.StandardService Line:179 - Stopping service Tomcat
+2018-06-22 18:14:56.620 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-06-22 18:14:59.111 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:582 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9: startup date [Fri Jun 22 18:14:59 CST 2018]; root of context hierarchy
+2018-06-22 18:14:59.280 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor Line:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 18:14:59.317 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67fb2b5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:14:59.683 INFO  com.pdstars.BootApplication Line:641 - The following profiles are active: dev
+2018-06-22 18:14:59.696 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41e1455d: startup date [Fri Jun 22 18:14:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9
+2018-06-22 18:15:00.617 INFO  org.springframework.cloud.context.scope.GenericScope Line:263 - BeanFactory id=b6bbd9b5-3e2b-3d39-9eff-93180d784467
+2018-06-22 18:15:00.631 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor Line:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-22 18:15:00.667 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.690 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.761 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.767 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'mybatisConfig' of type [com.pdstars.config.MybatisConfig$$EnhancerBySpringCGLIB$$1bab8279] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.779 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'DBInterceptor' of type [com.pdstars.manager.interceptor.DBInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.794 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'pageHelper' of type [com.github.pagehelper.PageHelper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.952 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'sqlSessionFactory' of type [org.mybatis.spring.SqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.953 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.961 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'serverMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:00.963 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'logMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:01.033 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4be1285d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:01.066 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:325 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67fb2b5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 18:15:01.270 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:89  - Tomcat initialized with port(s): 16431 (http)
+2018-06-22 18:15:01.277 INFO  org.apache.catalina.core.StandardService Line:179 - Starting service Tomcat
+2018-06-22 18:15:01.278 INFO  org.apache.catalina.core.StandardEngine Line:179 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-06-22 18:15:01.407 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring embedded WebApplicationContext
+2018-06-22 18:15:01.412 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 1716 ms
+2018-06-22 18:15:01.672 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-22 18:15:01.677 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'metricsFilter' to: [/*]
+2018-06-22 18:15:01.677 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 18:15:01.681 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 18:15:01.682 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 18:15:01.682 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 18:15:01.682 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-06-22 18:15:01.686 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-06-22 18:15:02.296 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/getLog]}" onto public com.pdstars.manager.base.vo.GeneralResVO com.pdstars.web.controller.log.LogController.getLog(com.pdstars.manager.log.vo.GetDelLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 18:15:02.297 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/addLog]}" onto public com.pdstars.manager.base.vo.GeneralResVO com.pdstars.web.controller.log.LogController.addLog(com.pdstars.manager.log.vo.AddEditLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 18:15:02.298 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/testController]}" onto public com.pdstars.manager.base.vo.GeneralResVO com.pdstars.web.controller.log.LogController.testController(com.pdstars.manager.log.vo.GetDelLogReqVO,javax.servlet.http.HttpServletRequest) throws java.lang.InstantiationException,java.lang.IllegalAccessException
+2018-06-22 18:15:02.300 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-22 18:15:02.301 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-22 18:15:02.302 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-22 18:15:02.304 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 18:15:02.309 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 18:15:02.878 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-06-22 18:15:02.879 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.880 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 18:15:02.881 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.881 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.882 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-06-22 18:15:02.882 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-06-22 18:15:02.888 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-06-22 18:15:02.888 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.890 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 18:15:02.891 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-06-22 18:15:02.891 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.893 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-06-22 18:15:02.894 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-06-22 18:15:02.894 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.899 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-06-22 18:15:02.900 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.900 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.901 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.902 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-06-22 18:15:02.902 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.902 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-06-22 18:15:02.903 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:02.908 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-06-22 18:15:02.908 INFO  org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping Line:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-06-22 18:15:03.026 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-06-22 18:15:03.253 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41e1455d: startup date [Fri Jun 22 18:14:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9
+2018-06-22 18:15:03.305 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:15:03.305 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:15:03.326 INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver Line:273 - Detected @ExceptionHandler methods in globalExceptionHandler
+2018-06-22 18:15:03.348 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:15:03.680 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-22 18:15:03.683 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-06-22 18:15:03.875 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-06-22 18:15:03.889 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-06-22 18:15:03.890 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-06-22 18:15:03.892 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-06-22 18:15:03.897 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-06-22 18:15:03.897 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:916 - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-06-22 18:15:03.900 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-06-22 18:15:03.911 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-06-22 18:15:03.918 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-06-22 18:15:03.929 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=41e1455d,type=ConfigurationPropertiesRebinder]
+2018-06-22 18:15:03.946 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:678 - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-06-22 18:15:04.127 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:343 - Starting beans in phase 0
+2018-06-22 18:15:04.135 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:70  - Setting initial instance status as: STARTING
+2018-06-22 18:15:04.260 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2018-06-22 18:15:04.262 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2018-06-22 18:15:04.322 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2018-06-22 18:15:04.322 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2018-06-22 18:15:04.588 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:15:04.666 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:15:04.667 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:15:04.671 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:15:04.671 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:15:04.672 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:15:04.672 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:15:04.672 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:15:05.746 INFO  com.netflix.discovery.DiscoveryClient Line:1261 - Starting heartbeat executor: renew interval is: 30
+2018-06-22 18:15:05.748 INFO  com.netflix.discovery.InstanceInfoReplicator Line:59  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-06-22 18:15:05.752 INFO  com.netflix.discovery.DiscoveryClient Line:461 - Discovery Client initialized at timestamp 1529662505752 with initial instances count: 0
+2018-06-22 18:15:05.769 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:100 - Registering application pdstars-bing-server with eureka with status UP
+2018-06-22 18:15:05.770 INFO  com.netflix.discovery.DiscoveryClient Line:1296 - Saw local status change event StatusChangeEvent [timestamp=1529662505770, current=UP, previous=STARTING]
+2018-06-22 18:15:05.771 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:15:05.808 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:343 - Starting beans in phase 2147483647
+2018-06-22 18:15:05.813 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-06-22 18:15:05.827 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-06-22 18:15:05.865 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-06-22 18:15:06.086 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:198 - Tomcat started on port(s): 16431 (http)
+2018-06-22 18:15:06.087 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:168 - Updating port to 16431
+2018-06-22 18:15:06.090 INFO  com.pdstars.BootApplication Line:57  - Started BootApplication in 7.337 seconds (JVM running for 8.117)
+2018-06-22 18:15:07.805 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-22 18:15:07.810 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-22 18:15:07.835 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-06-22 18:15:35.747 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:15:35.764 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:15:35.777 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:15:35.778 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:15:35.786 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:15:35.786 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:15:35.786 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:15:36.833 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:16:06.805 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:16:06.826 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:16:06.840 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:16:06.840 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:16:06.852 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:16:06.852 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:16:06.863 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:16:07.888 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:16:37.878 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:16:37.899 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:16:37.915 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:16:37.916 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:16:37.923 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:16:37.924 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:16:37.924 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:16:38.967 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:17:08.942 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:17:08.964 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:17:08.979 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:17:08.979 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:17:08.996 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:17:08.997 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:17:09.013 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:17:10.046 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:17:40.019 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:17:40.024 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:17:40.028 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:17:40.028 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:17:40.032 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:17:40.032 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:17:40.032 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:17:41.111 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:18:11.050 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:18:11.072 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:18:11.092 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:18:11.092 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:18:11.102 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:18:11.102 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:18:11.112 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:18:12.201 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:18:42.118 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:18:42.139 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:18:42.149 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:18:42.150 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:18:42.158 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:18:42.158 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:18:42.158 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:18:43.297 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:19:13.167 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:19:13.171 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:19:13.175 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:19:13.176 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:19:13.180 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:19:13.180 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:19:13.184 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:19:14.316 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:19:44.201 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:19:44.220 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:19:44.235 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:19:44.235 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:19:44.247 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:19:44.247 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:19:44.247 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:19:45.395 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:20:04.683 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:20:15.263 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:20:15.280 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:20:15.295 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:20:15.310 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:20:15.310 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:20:15.324 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:20:15.324 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:20:16.421 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:20:46.342 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:20:46.363 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:20:46.377 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:20:46.385 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:20:46.385 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:20:46.386 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:20:46.386 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:20:47.456 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:21:17.418 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:21:17.423 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:21:17.423 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:21:17.423 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:21:17.423 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:21:17.427 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:21:17.427 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:21:18.466 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:21:48.439 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:21:48.453 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:21:48.463 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:21:48.473 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:21:48.473 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:21:48.473 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:21:48.473 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:21:49.541 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:22:19.496 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:22:19.508 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:22:19.508 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:22:19.508 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:22:19.509 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:22:19.519 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:22:19.520 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:22:20.564 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:22:50.537 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:22:50.541 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:22:50.545 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:22:50.550 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:22:50.550 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:22:50.550 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:22:50.550 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:22:51.621 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:23:21.563 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:23:21.579 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:23:21.580 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:23:21.580 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:23:21.580 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:23:21.594 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:23:21.594 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:23:22.632 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:23:52.642 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:23:52.647 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:23:52.651 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:23:52.655 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:23:52.655 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:23:52.656 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:23:52.656 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:23:53.687 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:24:23.686 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:24:23.707 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:24:23.708 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:24:23.709 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:24:23.709 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:24:23.726 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:24:23.727 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:24:24.731 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:24:54.740 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:24:54.744 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:24:54.749 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:24:54.753 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:24:54.753 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:24:54.753 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:24:54.753 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:24:55.781 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:25:04.714 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:25:25.799 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:25:25.820 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:25:25.833 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:25:25.833 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:25:25.846 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:25:25.846 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:25:25.846 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:25:26.797 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:25:56.873 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:25:56.891 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:25:56.905 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:25:56.905 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:25:56.913 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:25:56.913 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:25:56.921 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:25:57.851 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:26:27.939 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:26:27.955 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:26:27.970 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:26:27.970 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:26:27.986 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:26:27.986 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:26:27.986 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:26:28.929 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:26:58.997 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:26:59.013 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:26:59.025 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:26:59.026 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:26:59.042 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:26:59.042 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:26:59.047 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:26:59.972 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:27:30.083 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:27:30.096 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:27:30.106 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:27:30.106 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:27:30.114 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:27:30.114 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:27:30.114 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:27:31.054 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:28:01.142 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:28:01.163 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:28:01.174 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:28:01.174 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:28:01.184 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:28:01.185 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:28:01.193 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:28:02.102 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:28:32.204 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:28:32.216 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:28:32.227 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:28:32.227 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:28:32.237 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:28:32.238 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:28:32.238 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:28:33.156 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:29:03.245 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:29:03.256 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:29:03.265 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:29:03.266 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:29:03.272 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:29:03.272 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:29:03.278 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:29:04.182 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:29:34.336 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:29:34.353 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:29:34.367 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:29:34.368 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:29:34.377 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:29:34.377 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:29:34.377 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:29:35.255 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:30:04.732 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:30:05.405 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:30:05.421 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:30:05.436 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:30:05.450 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:30:05.451 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:30:05.458 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:30:05.458 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:30:06.293 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:30:36.503 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:30:36.525 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:30:36.538 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:30:36.547 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:30:36.547 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:30:36.547 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:30:36.547 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:30:37.327 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:31:07.578 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:31:07.594 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:31:07.594 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:31:07.595 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:31:07.595 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:31:07.610 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:31:07.611 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:31:08.413 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:31:38.649 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:31:38.654 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:31:38.654 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:31:38.654 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:31:38.658 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:31:38.658 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:31:38.658 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:31:39.484 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:32:09.657 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:32:09.679 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:32:09.680 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:32:09.692 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:32:09.692 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:32:09.692 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:32:09.702 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:32:10.500 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:32:40.726 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:32:40.726 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:32:40.726 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:32:40.726 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:32:40.731 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:32:40.731 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:32:40.731 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:32:41.578 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:33:11.740 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:33:11.761 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:33:11.761 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:33:11.762 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:33:11.762 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:33:11.780 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:33:11.781 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:33:12.631 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:33:46.805 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:33:46.820 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:33:46.831 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:33:46.840 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:33:46.840 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:33:46.840 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:33:46.840 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:33:47.664 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:34:21.894 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:34:21.914 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:34:21.915 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:34:21.915 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:34:21.916 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:34:21.929 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:34:21.930 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:34:22.710 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:34:56.966 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:34:56.971 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:34:56.975 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:34:56.979 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:34:56.979 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:34:56.979 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:34:56.979 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:34:57.740 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:35:04.762 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:35:32.015 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:35:32.035 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:35:32.045 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:35:32.046 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:35:32.055 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:35:32.056 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:35:32.056 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:35:32.787 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:36:07.092 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:36:07.105 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:36:07.117 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:36:07.118 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:36:07.130 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:36:07.130 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:36:07.139 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:36:07.817 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:36:42.179 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:36:42.201 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:36:42.212 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:36:42.212 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:36:42.221 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:36:42.221 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:36:42.221 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:36:42.832 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:37:17.233 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:37:17.252 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:37:17.267 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:37:17.267 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:37:17.278 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:37:17.279 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:37:17.288 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:37:17.858 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:37:52.323 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:37:52.343 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:37:52.356 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:37:52.356 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:37:52.367 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:37:52.368 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:37:52.368 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:37:52.873 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:38:27.415 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:38:27.431 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:38:27.445 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:38:27.445 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:38:27.451 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:38:27.451 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:38:27.458 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:38:27.901 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:39:02.500 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:39:02.504 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:39:02.508 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:39:02.508 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:39:02.512 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:39:02.512 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:39:02.512 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:39:02.930 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:39:37.547 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:39:37.568 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:39:37.585 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:39:37.586 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:39:37.593 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:39:37.594 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:39:37.601 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:39:37.959 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:40:04.788 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2018-06-22 18:40:12.659 INFO  com.netflix.discovery.DiscoveryClient Line:937 - Disable delta property : false
+2018-06-22 18:40:12.664 INFO  com.netflix.discovery.DiscoveryClient Line:938 - Single vip registry refresh property : null
+2018-06-22 18:40:12.668 INFO  com.netflix.discovery.DiscoveryClient Line:939 - Force full registry fetch : false
+2018-06-22 18:40:12.672 INFO  com.netflix.discovery.DiscoveryClient Line:940 - Application is null : false
+2018-06-22 18:40:12.672 INFO  com.netflix.discovery.DiscoveryClient Line:941 - Registered Applications size is zero : true
+2018-06-22 18:40:12.672 INFO  com.netflix.discovery.DiscoveryClient Line:943 - Application version is -1: true
+2018-06-22 18:40:12.672 INFO  com.netflix.discovery.DiscoveryClient Line:1026 - Getting all instance registry info from the eureka server
+2018-06-22 18:40:12.984 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:40:21.903 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Line:125 - Application shutdown requested.
+2018-06-22 18:40:21.909 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41e1455d: startup date [Fri Jun 22 18:14:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8d96d9
+2018-06-22 18:40:21.910 INFO  org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration Line:128 - Unregistering application pdstars-bing-server with eureka with status DOWN
+2018-06-22 18:40:21.911 INFO  com.netflix.discovery.DiscoveryClient Line:812 - DiscoveryClient_PDSTARS-BING-SERVER/Wanglijun-PC:pdstars-bing-server:16431: registering service...
+2018-06-22 18:40:21.911 INFO  com.netflix.discovery.DiscoveryClient Line:869 - Shutting down DiscoveryClient ...
+2018-06-22 18:40:21.918 INFO  com.netflix.discovery.DiscoveryClient Line:901 - Unregistering ...
+2018-06-22 18:40:24.452 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Line:125 - Application shutdown requested.
+2018-06-22 18:40:26.272 INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Line:125 - Application shutdown requested.
+2018-06-22 18:40:26.972 INFO  com.netflix.discovery.DiscoveryClient Line:890 - Completed shut down of DiscoveryClient
+2018-06-22 18:40:26.983 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:358 - Stopping beans in phase 2147483647
+2018-06-22 18:40:26.984 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:358 - Stopping beans in phase 0
+2018-06-22 18:40:26.989 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:449 - Unregistering JMX-exposed beans on shutdown
+2018-06-22 18:40:26.989 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:241 - Unregistering JMX-exposed beans
+2018-06-22 18:40:27.111 INFO  org.apache.catalina.core.StandardService Line:179 - Stopping service Tomcat
+2018-06-22 18:40:27.124 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:179 - Destroying Spring FrameworkServlet 'dispatcherServlet'

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+<properties url="file:///E:/pdstars_microserver_wlj/Bing_Server/mybatis-generator.properties" />
+	<classPathEntry location="E:/cmsweb/mysql-connector-java-5.1.40.jar" />
+
+	<context id="MysqlTables" targetRuntime="MyBatis3Simple"
+		defaultModelType="conditional">
+		<!-- 生成文件使用utf8编码 -->
+		<property name="javaFileEncoding" value="UTF-8" />
+		<commentGenerator>
+			<property name="suppressDate" value="true" />
+			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+			<property name="suppressAllComments" value="false" />
+		</commentGenerator>
+
+		<!--数据库链接URL，用户名、密码 -->
+		<!--mysql数据库连接 <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3307/pjdb?characterEncoding=utf8" 
+			userId="root" password="root"> </jdbcConnection> -->
+		<!--刘俊涛 的数据库 -->
+		<!-- <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+			connectionURL="jdbc:sqlserver://192.168.14.15\CMSDB;DatabaseName=CMSDB" userId="sa" 
+			password="123456" /> -->
+		<!--俞俊男的数据库 -->
+		<!-- <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+			connectionURL="jdbc:sqlserver://127.0.0.1\SQL2012;DatabaseName=CMSDBDEV" 
+			userId="sa" password="123456" /> -->
+		<!-- 王书辉的数据库 APP&CMS共用 -->
+		<!-- <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+			connectionURL="jdbc:sqlserver://192.168.14.119\MSSQLSERVER;DatabaseName=CMSDB"
+			userId="sa" password="sa" /> -->
+        <!-- mysql-俞俊男本机开发库 -->
+        <!-- <jdbcConnection driverClass="com.mysql.jdbc.Driver" 
+            connectionURL="jdbc:mysql://127.0.0.1:3306/world?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true&amp;useSSL=false"
+            userId="root" password="root" /> -->
+        <!-- mysql-192.168.14.74开发库 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" 
+            connectionURL="jdbc:mysql://192.168.14.74:3306/pdstars_log?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true&amp;useSSL=false"
+            userId="root" password="123456" />
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+		<!-- 生成模型的包名和位置 -->
+		<javaModelGenerator targetPackage="com.pdstars.dal.dataobject"
+			targetProject="${MyProjectName}\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+			<property name="rootClass" value="com.pdstars.dal.dataobject.BaseDO" />
+		</javaModelGenerator>
+		<!-- 生成映射文件的包名和位置 -->
+		<sqlMapGenerator targetPackage="sqlmap"
+			targetProject="${MyProjectName}\src\main\resources">
+			<property name="enableSubPackages" value="false" />
+		</sqlMapGenerator>
+		<!-- 生成DAO的包名和位置 -->
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.pdstars.dal.daointerface" targetProject="${MyProjectName}\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="implementationPackage" value="SQLMappaer" />
+		</javaClientGenerator>
+
+		<!-- 要生成哪些表 -->		
+		<!-- 日志表 -->
+		<table tableName="log" enableInsert="true">
+		    <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+		</table>
+		
+		<!-- 服务表 -->
+		<table tableName="server" enableInsert="true">
+		    <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+		</table>
+	</context>
+</generatorConfiguration>

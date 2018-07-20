@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="cacheEnabled" value="false" />
+        <setting name="lazyLoadingEnabled" value="false" />
+        <setting name="multipleResultSetsEnabled" value="true" />
+        <setting name="useColumnLabel" value="true" />
+        <setting name="useGeneratedKeys" value="false" />
+        <setting name="autoMappingBehavior" value="PARTIAL" />
+        <setting name="defaultStatementTimeout" value="25" />
+        <setting name="safeRowBoundsEnabled" value="false" />
+        <setting name="mapUnderscoreToCamelCase" value="false" />
+        <setting name="localCacheScope" value="STATEMENT" />
+        <setting name="callSettersOnNulls" value="yes" />
+        <setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString" />
+        <!-- <setting name="logImpl" value="SLF4J" /> -->
+        <setting name="logImpl" value="SLF4J" />
+        <setting name="logPrefix" value="[mybatis:]" />
+    </settings>
+    <typeAliases>
+        <package name="com.pdstars.dal.dataobject" />
+    </typeAliases>
+
+    <mappers>
+        <package name="com.pdstars.dal.daointerface" />
+    </mappers>
+</configuration>     

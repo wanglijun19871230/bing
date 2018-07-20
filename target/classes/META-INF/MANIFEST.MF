@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: bing_server
+Implementation-Version: 1.0.0
+Built-By: Yanfa-0509
+Implementation-Vendor-Id: cms.pdstars.microserver
+Build-Jdk: 1.8.0_92
+Implementation-URL: http://projects.spring.io/spring-boot/bing_server/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
